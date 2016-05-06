@@ -88,7 +88,7 @@ local function run(msg, matches)
       description_rules(msg, nama)
    elseif matches[1] == "channel_del_user" then
        local bye_name = msg.action.user.first_name
-       return 'bye!'..bye_name
+       return 'bye! '..bye_name
    end
 end
 
