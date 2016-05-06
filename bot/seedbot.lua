@@ -210,9 +210,9 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
-    "spammer1",
-    "spammer2",
-    "spammer3",
+    "ingroup",
+    "supergp",
+    "stats",
     "stats",
     "plugins",
     "owners",
