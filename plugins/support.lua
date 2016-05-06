@@ -1,6 +1,6 @@
 do
     local function run(msg, matches)
-    local support = '138776903' -- آیدی ساپورت بات رو اینجا قرار دهید
+    local support = '146044932' -- آیدی ساپورت بات رو اینجا قرار دهید
     local data = load_data(_config.moderation.data)
     local name_log = user_print_name(msg.from)
         if matches[1] == 'support' then
@@ -11,6 +11,7 @@ end
 return {
     patterns = {
     "^[!/#](support)$",
+    "^([Ss]upport)$",
      },
     run = run
 }
