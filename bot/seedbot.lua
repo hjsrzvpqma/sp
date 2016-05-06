@@ -226,26 +226,21 @@ function create_config( )
     "id",
     "admin"
     },
-    sudo_users = {85831686},--Sudo users
+    sudo_users = {90285047},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[spammer-bot
-An advance Administration bot based on teleseed 
-spammer bot open sourced to:
-[source spammer bot](https://github.com/3pehrdev/spammer-bot)
-developed and founded
-By
-[blacklife admin](telegram.me/joker_admin_1)
-my chanell
-[chanell blacklifeTM](telegram.me/blacklifech)
- thanks to:
-mobin
---
---
---
-special thanks to
-blacklifeTm
-teleseedTm
+    about_text = [[WizardBot V.1.2 based on teleseed/telegram-bot
+
+Admins
+@Makan [manager,founder,developer]
+
+Special tnx to
+Seedteam
+Alireza
+Amir
+
+Our channel:
+@MoonTeam
 ]],
     help_text_realm = [[
 Realm Commands:
