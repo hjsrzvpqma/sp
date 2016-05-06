@@ -1899,7 +1899,7 @@ local function run(msg, matches)
 		end
 
 		if matches[1] == 'help' and not is_owner(msg) then
-			text = "Be 🔥 @Hell_antispam_bot 🔥 p.m bedid va dastor /help ro send konid."
+			text = "Be 🔥 @TeleWizard 🔥 p.m bedid va dastor /help ro send konid."
 			reply_msg(msg.id, text, ok_cb, false)
 		elseif matches[1] == 'help' and is_owner(msg) then
 			local name_log = user_print_name(msg.from)
